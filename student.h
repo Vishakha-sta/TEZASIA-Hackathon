@@ -8,11 +8,11 @@ private:
 public:
 	void getstudent()
 	{
-		cout << "\n\t\t\t\t\t\t\t\t\tEnter Roll No. of student:";
+		cout << "\n\t\t\t\t\t\t\t\t\tEnter Roll No. of Student:";
 		cin >> roll_no;
-		cout << "\t\t\t\t\t\t\t\t\tEnter Name of student:";
+		cout << "\t\t\t\t\t\t\t\t\tEnter Name of Student:";
 		cin >> name;
-		cout << "\t\t\t\t\t\t\t\t\tEnter marks of physics:";
+		cout << "\t\t\t\t\t\t\t\t\tEnter marks of Physics:";
 		cin >> p;
 		cout << "\t\t\t\t\t\t\t\t\tEnter marks of Chemistry:";
 		cin >> c;
@@ -21,12 +21,12 @@ public:
 	}
 	void putstudent()
 	{
-		cout << "\n\n\t\t\t\t\t\t\t\t\tRoll No. of student:" << roll_no << endl;
-		cout << "\t\t\t\t\t\t\t\t\tName of student:" << name << endl;
+		cout << "\n\n\t\t\t\t\t\t\t\t\t Student's Roll No.:" << roll_no << endl;
+		cout << "\t\t\t\t\t\t\t\t\tStudent's Name:" << name << endl;
 		cout << "\t\t\t\t\t\t\t\t\t\tMarks of student:-" << endl;
-		cout << "\t\t\t\t\t\t\t\t\t\tMarks of Physics:" << p << endl;
-		cout << "\t\t\t\t\t\t\t\t\t\tMarks of Chemistry:" << c << endl;
-		cout << "\t\t\t\t\t\t\t\t\t\tMarks of Maths:" << m << endl;
+		cout << "\t\t\t\t\t\t\t\t\t\tPhysics's Marks:" << p << endl;
+		cout << "\t\t\t\t\t\t\t\t\t\tChemistry's Marks:" << c << endl;
+		cout << "\t\t\t\t\t\t\t\t\t\tMaths's Marks:" << m << endl;
 	}
 	void Marksheet()
 	{
@@ -67,31 +67,31 @@ public:
 			div = "Fail";
 			if (p < 33 && c < 33 && m < 33)
 			{
-				rem = "Fail In Physics,Chemistry,Maths";
+				rem = "Failed In Physics,Chemistry,Maths";
 			}
 			else if (p < 33 && c < 33)
 			{
-				rem = "Fail In Physics & Chemistry";
+				rem = "Failed In Physics & Chemistry";
 			}
 			else if (p < 33 && m < 33)
 			{
-				rem = "Fail In Physics & Maths";
+				rem = "Failed In Physics & Maths";
 			}
 			else if (m < 33 && c < 33)
 			{
-				rem = "Fail In Maths & Chemistry";
+				rem = "Failed In Maths & Chemistry";
 			}
 			else if (p < 33)
 			{
-				rem = "Fail In Physics";
+				rem = "Failed In Physics";
 			}
 			else if (c < 33)
 			{
-				rem = "Fail In Chemistry";
+				rem = "Failed In Chemistry";
 			}
 			else if (m < 33)
 			{
-				rem = "Fail In Maths";
+				rem = "Failed In Maths";
 			}
 		}
 		cout << "\t\t\t\t\t\t\t\t| Division:\t|\t" << div << "\t|" << endl;

@@ -11,7 +11,7 @@ int main()
     student S;
     if (F == NULL)
     {
-        cout << "\t\t\t\t\t\t\t\t\tRecord not found..." << endl;
+        cout << "\t\t\t\t\t\t\t\t\tUser not exist..." << endl;
     }
     else
     {
@@ -29,7 +29,7 @@ int main()
             {
                 char ch;
                 S.putstudent();
-                cout << "\n\t\t\t\t\t\t\t\t\t-:Do you want to print Marksheet[Y/N]:";
+                cout << "\n\t\t\t\t\t\t\t\t\t-:Do you wanna Proceed Furthur to Print Marksheet[Y/N]:";
                 cin >> ch;
                 if (ch == 'Y' || ch == 'y')
                 {
@@ -45,7 +45,7 @@ int main()
 
         if (!found)
         {
-            cout << "\t\t\t\t\t\t\t\t\tStudent is not present in record...." << endl;
+            cout << "\t\t\t\t\t\t\t\t\t This Student is not present in record...." << endl;
         }
     }
     F.close();

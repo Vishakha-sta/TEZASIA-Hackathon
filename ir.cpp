@@ -14,7 +14,7 @@ int main()
 	{
 		S.getstudent();
 		F.write((char *)&S, sizeof(S));
-		cout << "\t\t\t\t\t\t\t\t\tAdd more students[Y/N]:" << endl;
+		cout << "\t\t\t\t\t\t\t\t\tWant to Add more students? [Y/N]:" << endl;
 		cin >> ch;
 	} while (ch == 'y' || ch == 'Y');
 	F.close();

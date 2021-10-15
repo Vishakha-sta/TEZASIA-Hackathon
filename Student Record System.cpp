@@ -19,6 +19,7 @@ void loadingBar()
   char a = 177, b = 219;
 
   cout << "\n\n\n\n";
+  cout << " ";
 
   cout << "\n\n\n\n\t\t\t\t\t\t\t\t\t";
 
@@ -48,7 +49,8 @@ int main()
   HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE);
 
   loadingBar();
-
+  
+  cout << " ";
   cout << endl;
   cout << endl;
   cout << endl;
@@ -60,6 +62,7 @@ int main()
 
   // getch();
 
+  cout << " ";
   cout << endl;
   cout << endl;
 
@@ -77,6 +80,7 @@ int main()
 
   cout << "\t\t\t\t\t\t\t\t******************************************\t\t\t\t\t\t\t" << endl;
 
+  cout << " ";
   cout << endl;
   cout << endl;
   cout << endl;

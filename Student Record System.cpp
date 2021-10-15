@@ -49,6 +49,8 @@ int main()
 
   loadingBar();
 
+  
+  cout << " ";
   cout << endl;
   cout << endl;
   cout << endl;
@@ -60,12 +62,15 @@ int main()
 
   // getch();
 
+  cout << " ";
   cout << endl;
   cout << endl;
-
+  
   cout << "\t\t\t\t\t\t\t\t\t     CREATED BY \t\t\t\t\t\t\t\t\t" << endl;
   Sleep(1000);
+  cout << " ";
   cout << endl;
+  
 
   // getch();
 
@@ -86,6 +91,8 @@ int main()
     SetConsoleTextAttribute(h, 2);
     cout << "\n\t\t\t\t\t\t\t\t Main Menu for Number System Conversion :-  \t\t\t\t\t\t\t" << endl;
     Sleep(1000);
+    
+    cout << " ";
     cout << endl;
     cout << endl;
 
@@ -93,6 +100,8 @@ int main()
 
     cout << "\t\t\t\t\t\t\t******************************************************************\t\t\t\t\t\t\t" << endl;
 
+    
+    cout << " ";
     cout << endl;
 
     cout << "\t\t\t\t\t\t\t* \t1.  ------> Add Student\t\t *\t\t\t\t\t\t\t" << endl;
@@ -105,6 +114,7 @@ int main()
 
     cout << "\t\t\t\t\t\t\t******************************************************************\t\t\t\t\t\t\t" << endl;
 
+    cout << " ";
     cout << endl;
     cout << endl;
     cout << endl;

@@ -24,6 +24,7 @@ void loadingBar()
 
   cout << "Loading...\n\n";
 
+  cout << " ";
   cout << "\t\t\t\t\t\t\t\t\t";
 
   for (int i = 0; i < 18; i++)
@@ -49,6 +50,7 @@ int main()
 
   loadingBar();
 
+  cout << " ";
   cout << endl;
   cout << endl;
   cout << endl;
@@ -60,6 +62,7 @@ int main()
 
   // getch();
 
+  cout << " ";
   cout << endl;
   cout << endl;
 
@@ -77,6 +80,7 @@ int main()
 
   cout << "\t\t\t\t\t\t\t\t******************************************\t\t\t\t\t\t\t" << endl;
 
+  cout << " ";
   cout << endl;
   cout << endl;
   cout << endl;
@@ -86,6 +90,7 @@ int main()
     SetConsoleTextAttribute(h, 2);
     cout << "\n\t\t\t\t\t\t\t\t Main Menu for Number System Conversion :-  \t\t\t\t\t\t\t" << endl;
     Sleep(1000);
+    cout << " ";
     cout << endl;
     cout << endl;
 
